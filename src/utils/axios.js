@@ -2,7 +2,7 @@ import axios from "axios";
 import Cookie from "js-cookie";
 
 const axiosApiIntances = axios.create({
-  baseURL: `http://localhost:3001`,
+  baseURL: `https://web-production-667f.up.railway.app`,
 });
 
 // Add a request interceptor
