@@ -1,8 +1,4 @@
-import {
-  InputAuthComponent,
-  AllButton,
-  FooterComponent,
-} from "../modules";
+import { InputAuthComponent, AllButton, FooterComponent } from "../modules";
 import { useState } from "react";
 import { useHistory } from "react-router-dom";
 import axios from "../../utils/axios";
@@ -31,7 +27,7 @@ export default function FormRegisterComponent() {
     axios
       .post("/auth/register", formRegister)
       .then((res) => {
-        console.log(res)
+        console.log(res);
         setShow(true);
       })
       .catch((err) => {
@@ -64,7 +60,7 @@ export default function FormRegisterComponent() {
             alt="logo-header"
             className="logo-header"
           />
-          <span className="header-title ps-2">BookStore</span>
+          <span className="header-title ps-2">SayurShop</span>
         </div>
         <div className="signup-logo">
           <span className="signup-title">Sign Up</span>
