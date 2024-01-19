@@ -238,7 +238,7 @@ function Profile() {
               <img
                 src={
                   user.user.image
-                    ? `${process.env.URL_BACKEND}/uploads/user/${user.user.image}`
+                    ? `https://web-production-667f.up.railway.app/uploads/user/${user.user.image}`
                     : "/assets/images/default.png"
                 }
                 alt="profile"

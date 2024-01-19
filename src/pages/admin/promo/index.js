@@ -178,7 +178,7 @@ function Promo() {
                               image
                                 ? image
                                 : form.image
-                                ? `${process.env.URL_BACKEND}/uploads/promo/${form.image}`
+                                ? `https://web-production-667f.up.railway.app/uploads/promo/${form.image}`
                                 : "/assets/images/default.png"
                             }
                             alt="promo"

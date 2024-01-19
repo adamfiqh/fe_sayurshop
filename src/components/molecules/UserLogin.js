@@ -175,7 +175,7 @@ export default function UserLogin(props) {
         <img
           src={
             user.image
-              ? `${process.env.URL_BACKEND}/uploads/user/${user.image}`
+              ? `https://web-production-667f.up.railway.app/uploads/user/${user.image}`
               : "/assets/images/default.png"
           }
           alt="user"
