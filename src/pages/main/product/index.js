@@ -137,7 +137,7 @@ export default function DetailProduct() {
                     <img
                       src={
                         dataProduct.image
-                          ? `${"http://localhost:3001"}/uploads/product/${
+                          ? `https://web-production-667f.up.railway.app/uploads/product/${
                               dataProduct.image
                             }`
                           : `/assets/images/default.png`
@@ -199,7 +199,7 @@ export default function DetailProduct() {
                         <img
                           src={
                             dataProduct.image
-                              ? `${'http://localhost:3001'}/uploads/product/${dataProduct.image}`
+                              ? `https://web-production-667f.up.railway.app/uploads/product/${dataProduct.image}`
                               : `/assets/images/default.png`
                           }
                           alt="b"

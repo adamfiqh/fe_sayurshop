@@ -256,7 +256,7 @@ function NewProduct() {
                               image
                                 ? image
                                 : form.image
-                                ? `http://localhost:3001/uploads/product/${form.image}`
+                                ? `https://web-production-667f.up.railway.app/${form.image}`
                                 : "/assets/images/default.png"
                             }
                             alt="product image"

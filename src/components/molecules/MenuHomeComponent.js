@@ -196,7 +196,7 @@ export default function MenuHomeComponent() {
               <img
                 src={
                   item.image
-                    ? `${"http://localhost:3001"}/uploads/product/${item.image}`
+                    ? `https://web-production-667f.up.railway.app/uploads/product/${item.image}`
                     : `/assets/images/default.png`
                 }
                 className="menu-item-img"

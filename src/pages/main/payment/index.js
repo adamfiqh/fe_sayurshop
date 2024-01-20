@@ -212,7 +212,7 @@ function Payment() {
                                   <img
                                     src={
                                       item.image
-                                        ? `http://localhost:3001/uploads/product/${item.image}`
+                                        ? `https://web-production-667f.up.railway.app/${item.image}`
                                         : `/assets/images/default.png`
                                     }
                                     alt="z"

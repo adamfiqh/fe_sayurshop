@@ -80,7 +80,7 @@ export default function PromoHomeComponent() {
                 <img
                   src={
                     item.image
-                      ? `${"http://localhost:3001"}/uploads/promo/${item.image}`
+                      ? `https://web-production-667f.up.railway.app/uploads/promo/${item.image}`
                       : `/assets/images/default.png`
                   }
                   alt=""
